@@ -1,0 +1,125 @@
+
+.my-works {
+    position: relative;
+    width: 100%;
+    min-height: 980px;
+    margin-top: -330px;
+    margin-bottom: -240px;
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.my-logo {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 200px;
+    height: 196px;
+    background: url("../img/logo_round_200.png") no-repeat;
+}
+
+.my-text-block {
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    width: 420px;
+}
+
+.my-text {
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    padding: 11px 16px;
+    border-radius: 20px;
+    opacity: 0;
+    text-shadow: 1px 1px 2px #000;
+    background: rgba(190,145,208,0.73);
+
+    transition: opacity 0.7s;
+}
+
+.my-badges {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.my-badge {
+
+}
+
+.my-text_active {
+    opacity: 1;
+}
+
+.my-phones {
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    width: 759px;
+    height: 677px;
+}
+
+.my-phones-screen {
+    position: absolute;
+    width: 759px;
+    height: 677px;
+    background: url("../img/phones.jpg") no-repeat;
+    animation: fade-out 0.5s forwards;
+}
+
+.my-phones-screen_away {
+    animation: fade-in 0.5s forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.my-arrow {
+    position: absolute;
+    top: 45%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: #fff;
+    background: pink;
+    text-align: center;
+    cursor: pointer;
+}
+
+.my-arrow:hover {
+    background: #ff8fa2;
+}
+
+.my-arrow_left {
+    left: -100px;
+}
+
+.my-arrow_left I {
+    margin-left: -8px;
+}
+
+.my-arrow_right {
+    right: -100px;
+}
+
+.my-arrow_right I {
+    margin-right: -8px;
+}
